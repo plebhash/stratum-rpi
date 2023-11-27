@@ -1,0 +1,14 @@
+[package]
+name = "stratum-rpi"
+version = "0.1.0"
+edition = "2021"
+description = "StratumV2 Reference Implentation (SRI) distribution pipelines for Raspberry Pi OS"
+author = "plebhash <plebhash@proton.me>"
+
+[dependencies]
+cross = "0.2.5"
+
+[build]
+xargo = true
+build-std = true
+default-target = "aarch64-unknown-linux-gnu"
